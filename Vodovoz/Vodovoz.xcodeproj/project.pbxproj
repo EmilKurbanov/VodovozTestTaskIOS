@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F77DDBBF2C6B99F200E13819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DDBBE2C6B99F200E13819 /* AppDelegate.swift */; };
+		F77DDBC12C6B99F200E13819 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DDBC02C6B99F200E13819 /* SceneDelegate.swift */; };
+		F77DDBC32C6B99F200E13819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DDBC22C6B99F200E13819 /* ViewController.swift */; };
+		F77DDBC82C6B99F300E13819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77DDBC72C6B99F300E13819 /* Assets.xcassets */; };
+		F77DDBCB2C6B99F300E13819 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F77DDBCA2C6B99F300E13819 /* Base */; };
+		F77DDBD32C6B9ADA00E13819 /* ModelVodovoz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DDBD22C6B9ADA00E13819 /* ModelVodovoz.swift */; };
+		F77DDBD62C6B9B2500E13819 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F77DDBD52C6B9B2500E13819 /* Alamofire */; };
+		F77DDBDB2C6C866900E13819 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F77DDBDA2C6C866900E13819 /* Kingfisher */; };
+		F77DDBDE2C6CA10300E13819 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F77DDBDD2C6CA10300E13819 /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F77DDBBB2C6B99F200E13819 /* Vodovoz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vodovoz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77DDBBE2C6B99F200E13819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F77DDBC02C6B99F200E13819 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F77DDBC22C6B99F200E13819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F77DDBC72C6B99F300E13819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77DDBCA2C6B99F300E13819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77DDBCC2C6B99F300E13819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77DDBD22C6B9ADA00E13819 /* ModelVodovoz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelVodovoz.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77DDBB82C6B99F200E13819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77DDBDE2C6CA10300E13819 /* SnapKit in Frameworks */,
+				F77DDBDB2C6C866900E13819 /* Kingfisher in Frameworks */,
+				F77DDBD62C6B9B2500E13819 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77DDBB22C6B99F200E13819 = {
+			isa = PBXGroup;
+			children = (
+				F77DDBBD2C6B99F200E13819 /* Vodovoz */,
+				F77DDBBC2C6B99F200E13819 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77DDBBC2C6B99F200E13819 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77DDBBB2C6B99F200E13819 /* Vodovoz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77DDBBD2C6B99F200E13819 /* Vodovoz */ = {
+			isa = PBXGroup;
+			children = (
+				F77DDBBE2C6B99F200E13819 /* AppDelegate.swift */,
+				F77DDBC02C6B99F200E13819 /* SceneDelegate.swift */,
+				F77DDBD22C6B9ADA00E13819 /* ModelVodovoz.swift */,
+				F77DDBC22C6B99F200E13819 /* ViewController.swift */,
+				F77DDBC72C6B99F300E13819 /* Assets.xcassets */,
+				F77DDBC92C6B99F300E13819 /* LaunchScreen.storyboard */,
+				F77DDBCC2C6B99F300E13819 /* Info.plist */,
+			);
+			path = Vodovoz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77DDBBA2C6B99F200E13819 /* Vodovoz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77DDBCF2C6B99F300E13819 /* Build configuration list for PBXNativeTarget "Vodovoz" */;
+			buildPhases = (
+				F77DDBB72C6B99F200E13819 /* Sources */,
+				F77DDBB82C6B99F200E13819 /* Frameworks */,
+				F77DDBB92C6B99F200E13819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vodovoz;
+			packageProductDependencies = (
+				F77DDBD52C6B9B2500E13819 /* Alamofire */,
+				F77DDBDA2C6C866900E13819 /* Kingfisher */,
+				F77DDBDD2C6CA10300E13819 /* SnapKit */,
+			);
+			productName = Vodovoz;
+			productReference = F77DDBBB2C6B99F200E13819 /* Vodovoz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77DDBB32C6B99F200E13819 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F77DDBBA2C6B99F200E13819 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F77DDBB62C6B99F200E13819 /* Build configuration list for PBXProject "Vodovoz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77DDBB22C6B99F200E13819;
+			packageReferences = (
+				F77DDBD42C6B9B2500E13819 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F77DDBD92C6C866900E13819 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F77DDBDC2C6CA10300E13819 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = F77DDBBC2C6B99F200E13819 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77DDBBA2C6B99F200E13819 /* Vodovoz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77DDBB92C6B99F200E13819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77DDBC82C6B99F300E13819 /* Assets.xcassets in Resources */,
+				F77DDBCB2C6B99F300E13819 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77DDBB72C6B99F200E13819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77DDBC32C6B99F200E13819 /* ViewController.swift in Sources */,
+				F77DDBD32C6B9ADA00E13819 /* ModelVodovoz.swift in Sources */,
+				F77DDBBF2C6B99F200E13819 /* AppDelegate.swift in Sources */,
+				F77DDBC12C6B99F200E13819 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F77DDBC92C6B99F300E13819 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77DDBCA2C6B99F300E13819 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77DDBCD2C6B99F300E13819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77DDBCE2C6B99F300E13819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77DDBD02C6B99F300E13819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX4Z863YP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vodovoz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = voitivit.Vodovoz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77DDBD12C6B99F300E13819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX4Z863YP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vodovoz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = voitivit.Vodovoz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77DDBB62C6B99F200E13819 /* Build configuration list for PBXProject "Vodovoz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77DDBCD2C6B99F300E13819 /* Debug */,
+				F77DDBCE2C6B99F300E13819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77DDBCF2C6B99F300E13819 /* Build configuration list for PBXNativeTarget "Vodovoz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77DDBD02C6B99F300E13819 /* Debug */,
+				F77DDBD12C6B99F300E13819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F77DDBD42C6B9B2500E13819 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		F77DDBD92C6C866900E13819 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+		F77DDBDC2C6CA10300E13819 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F77DDBD52C6B9B2500E13819 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77DDBD42C6B9B2500E13819 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F77DDBDA2C6C866900E13819 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77DDBD92C6C866900E13819 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F77DDBDD2C6CA10300E13819 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77DDBDC2C6CA10300E13819 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F77DDBB32C6B99F200E13819 /* Project object */;
+}
